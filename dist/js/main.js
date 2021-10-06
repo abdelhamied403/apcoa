@@ -18,8 +18,8 @@ axios
 axios
   .get(`${api}/carbonbymonth.php`)
   .then((res) => {
-    $("#carTall p month1").text(Object.values(res.data.data)[0]);
-    $("#carTall p month2").text(Object.values(res.data.data)[1]);
+    $("#carTall p#month1").text(Object.values(res.data.data)[0]);
+    $("#carTall p#month2").text(Object.values(res.data.data)[1]);
   })
   .catch((err) => console.error(err));
 
