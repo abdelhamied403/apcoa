@@ -1,0 +1,51 @@
+.container {
+  .row {
+    display: flex;
+  }
+  .image {
+    position: relative;
+    .caption {
+      position: absolute;
+      z-index: 99999;
+      width: 100%;
+      p {
+        font-size: 86px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .caption#tree {
+      top: 54%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .caption#car {
+      bottom: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .caption#carTall {
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+      p {
+        font-size: 36px;
+        color: #07375b;
+        margin: 0 20px;
+      }
+      .row {
+        justify-content: space-evenly;
+      }
+    }
+    .caption#cloud {
+      bottom: 38%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  img {
+    width: 540px;
+    height: 960px;
+    object-fit: cover;
+  }
+}
