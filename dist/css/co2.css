@@ -1,0 +1,178 @@
+.container .image {
+  position: relative;
+}
+
+.container .image .caption {
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+}
+
+.container .image .caption p {
+  font-size: 43px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .tree .caption#tree {
+  top: 28%;
+  left: 25%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .image .tree .caption#tree p {
+  font-size: 36px;
+}
+
+.container .image .tree .text {
+  position: absolute;
+  top: 5%;
+  width: 50%;
+}
+
+.container .image .tree .text p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container .image .car .caption#car {
+  position: absolute;
+  z-index: 99999;
+  width: 50%;
+  right: 0;
+  top: 38%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .image .car .caption#car p {
+  font-size: 43px;
+}
+
+.container .image .car .top {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 50%;
+}
+
+.container .image .car .top p {
+  font-size: 38px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .car .bot {
+  position: absolute;
+  right: 0;
+  top: 43%;
+  width: 50%;
+}
+
+.container .image .car .bot p {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .carTall .caption#carTall {
+  bottom: 6%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .image .carTall .caption#carTall p {
+  font-size: 18px;
+  color: #07375b;
+  margin: 0 20px;
+}
+
+.container .image .carTall .caption#carTall .row {
+  width: 50%;
+  margin-left: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .image .carTall .top {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  width: 50%;
+}
+
+.container .image .carTall .top p {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .carTall .bot {
+  position: absolute;
+  bottom: 9%;
+  right: 0;
+  width: 50%;
+}
+
+.container .image .carTall .bot .row {
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .image .carTall .bot p {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .cloud .caption#cloud {
+  bottom: 18%;
+  left: 25%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .image .cloud .top {
+  position: absolute;
+  top: 56%;
+  width: 100%;
+}
+
+.container .image .cloud .top p {
+  font-size: 26px;
+  color: #00aeef;
+  text-align: left;
+  margin: 0;
+  margin-left: 10%;
+}
+
+.container .image .cloud .top p.big {
+  font-size: 48px;
+}
+
+.container .image .cloud .bot {
+  position: absolute;
+  bottom: 9%;
+  width: 50%;
+}
+
+.container .image .cloud .bot p {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=co2.css.map */

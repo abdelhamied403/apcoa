@@ -1,0 +1,24 @@
+.container {
+  .image {
+    position: relative;
+    .caption {
+      position: absolute;
+      z-index: 99999;
+      width: 100%;
+      p {
+        font-size: 86px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .caption#street {
+      bottom: 18%;
+      left: 50%;
+      transform: translateX(-50%);
+
+      p.key {
+        font-size: 62px;
+      }
+    }
+  }
+}

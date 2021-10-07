@@ -1,0 +1,151 @@
+.container {
+  .image {
+    position: relative;
+    .caption {
+      position: absolute;
+      z-index: 99999;
+      width: 100%;
+      p {
+        font-size: 43px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .tree {
+      .caption#tree {
+        top: 28%;
+        left: 25%;
+        transform: translateX(-50%);
+        p {
+          font-size: 36px;
+        }
+      }
+      .text {
+        position: absolute;
+        top: 5%;
+        width: 50%;
+
+        p {
+          text-align: center;
+          font-size: 24px;
+          font-weight: bold;
+        }
+      }
+    }
+    .car {
+      .caption#car {
+        position: absolute;
+        z-index: 99999;
+        width: 50%;
+        right: 0;
+        top: 38%;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        p {
+          font-size: 43px;
+        }
+      }
+      .top {
+        position: absolute;
+        right: 0;
+        top: 10%;
+        width: 50%;
+        p {
+          font-size: 38px;
+          color: white;
+          text-align: center;
+        }
+      }
+      .bot {
+        position: absolute;
+        right: 0;
+        top: 43%;
+        width: 50%;
+        p {
+          font-size: 24px;
+          color: white;
+          text-align: center;
+        }
+      }
+    }
+    .carTall {
+      .caption#carTall {
+        bottom: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        p {
+          font-size: 18px;
+          color: #07375b;
+          margin: 0 20px;
+        }
+        .row {
+          width: 50%;
+          margin-left: auto;
+          justify-content: space-evenly;
+        }
+      }
+      .top {
+        position: absolute;
+        top: 60%;
+        right: 0;
+        width: 50%;
+        p {
+          font-size: 36px;
+          color: white;
+          text-align: center;
+        }
+      }
+      .bot {
+        position: absolute;
+        bottom: 9%;
+        right: 0;
+        width: 50%;
+        .row {
+          width: 100%;
+          justify-content: space-evenly;
+        }
+        p {
+          font-size: 24px;
+          color: white;
+          text-align: center;
+        }
+      }
+    }
+
+    .cloud {
+      .caption#cloud {
+        bottom: 18%;
+        left: 25%;
+        transform: translateX(-50%);
+      }
+      .top {
+        position: absolute;
+        top: 56%;
+        width: 100%;
+        p {
+          font-size: 26px;
+          color: #00aeef;
+          text-align: left;
+          margin: 0;
+          margin-left: 10%;
+
+          &.big {
+            font-size: 48px;
+          }
+        }
+      }
+      .bot {
+        position: absolute;
+        bottom: 9%;
+        width: 50%;
+        p {
+          font-size: 24px;
+          color: white;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

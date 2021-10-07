@@ -1,0 +1,32 @@
+.container .image .whiteCard .caption#whiteCard {
+  top: 62%;
+  right: 0;
+  width: 50%;
+}
+
+.container .image .whiteCard p {
+  font-size: 36px;
+}
+
+.container .image .whiteCard .top {
+  position: absolute;
+  top: 52%;
+  right: 0;
+  width: 50%;
+  text-align: center;
+}
+
+.container .image .street .caption#street {
+  top: 20%;
+  left: 0;
+  width: 50%;
+}
+
+.container .image .street .caption#street p.key {
+  font-size: 32px;
+}
+
+.container .image .street .caption#street p.val {
+  color: #79b53b;
+}
+/*# sourceMappingURL=co2White.css.map */
