@@ -1,0 +1,60 @@
+.container .image {
+  position: relative;
+}
+
+.container .image .caption {
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+}
+
+.container .image .caption p {
+  font-size: 86px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .top {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.container .image .top p {
+  font-size: 76px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .bot {
+  position: absolute;
+  bottom: 18%;
+  width: 100%;
+}
+
+.container .image .bot p {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .caption#carTall {
+  bottom: 12%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .image .caption#carTall p {
+  font-size: 36px;
+  color: #07375b;
+  margin: 0 20px;
+}
+
+.container .image .row {
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=carTall.css.map */

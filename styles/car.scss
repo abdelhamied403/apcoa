@@ -1,0 +1,40 @@
+.container {
+  .image {
+    position: relative;
+    .caption {
+      position: absolute;
+      z-index: 99999;
+      width: 100%;
+      display: flex;
+      font-size: 86px;
+      color: white;
+      justify-content: center;
+    }
+    .top {
+      position: absolute;
+      top: 10%;
+      width: 100%;
+      p {
+        font-size: 76px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .bot {
+      position: absolute;
+      bottom: 10%;
+      width: 100%;
+      p {
+        font-size: 24px;
+        color: white;
+        text-align: center;
+      }
+    }
+
+    .caption#car {
+      bottom: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.container .image {
+  position: relative;
+}
+
+.container .image .caption {
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 86px;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .image .top {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.container .image .top p {
+  font-size: 76px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .bot {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+
+.container .image .bot p {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.container .image .caption#car {
+  bottom: 15%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=car.css.map */

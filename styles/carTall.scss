@@ -1,0 +1,49 @@
+.container {
+  .image {
+    position: relative;
+    .caption {
+      position: absolute;
+      z-index: 99999;
+      width: 100%;
+      p {
+        font-size: 86px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .top {
+      position: absolute;
+      top: 10%;
+      width: 100%;
+      p {
+        font-size: 76px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .bot {
+      position: absolute;
+      bottom: 18%;
+      width: 100%;
+      p {
+        font-size: 48px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .caption#carTall {
+      bottom: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+      p {
+        font-size: 36px;
+        color: #07375b;
+        margin: 0 20px;
+      }
+    }
+    .row {
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  }
+}
