@@ -1,0 +1,50 @@
+.container {
+  .image {
+    position: relative;
+    .caption {
+      position: absolute;
+      z-index: 99999;
+      width: 100%;
+      p {
+        font-size: 86px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .top {
+      position: absolute;
+      top: 10%;
+      width: 100%;
+      p {
+        font-size: 52px;
+        color: white;
+        text-align: left;
+        margin: 0;
+        margin-left: 20%;
+
+        &.big {
+          font-size: 96px;
+        }
+      }
+    }
+    .bot {
+      position: absolute;
+      bottom: 18%;
+      width: 100%;
+      p {
+        font-size: 48px;
+        color: white;
+        text-align: center;
+      }
+    }
+    .caption#cloud {
+      bottom: 38%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .row {
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  }
+}
