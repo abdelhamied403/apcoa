@@ -1,4 +1,32 @@
+@font-face {
+  font-family: "unit";
+  src: url(../../assets/Fonts/UnitPro.otf);
+}
+@font-face {
+  font-family: "unit";
+  src: url(../../assets/Fonts/UnitPro-Medi.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "unit";
+  src: url(../../assets/Fonts/UnitPro-Bold.otf);
+  font-weight: bolder;
+}
+
 body,
 p {
   margin: 0;
+  font-family: "unit";
+}
+
+.container {
+  .row {
+    display: flex;
+  }
+
+  img {
+    width: 540px;
+    height: 960px;
+    object-fit: cover;
+  }
 }
