@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/tailwind/tailwind.min.css" />
+
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <link rel="stylesheet" href="dist/css/styles.css" />
+
+    <style>
+      .footer {
+        background-color: #00aeef !important;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="viewport flex flex-col">
+        <div class="row flex-1 half">
+          <div class="flex flex-col flex-1">
+            <div class="flex-1">
+              <div class="parking row flex-1 h-full bg-white">
+                <div class="col w-full h-full flex">
+                  <img
+                    class="h-1/2 w-full mt-0 ml-0"
+                    src="assets/parking.svg"
+                    alt=""
+                  />
+                  <div class="caption flex flex-col">
+                    <p class="title">hyr<br />boendeparkering</p>
+                    <p class="subtitle">från</p>
+                    <p id="val" class="val">795 kr/dag</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="cloud half row h-full flex-1">
+                <div class="col w-full h-full flex">
+                  <img
+                    class="w-3/5 object-contain m-auto"
+                    src="assets/cloud.svg"
+                    alt=""
+                  />
+                  <div class="caption flex flex-col">
+                    <p class="title">CO<span class="small">2</span></p>
+                    <p class="subtitle">påverkan</p>
+                    <p id="val" class="val">.. KG</p>
+                    <p class="foot">per må nad</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col flex-1">
+            <div class="flex-1">
+              <div class="car half row h-full flex-1">
+                <div class="col w-full h-full flex">
+                  <img
+                    class="w-1/2 object-contain m-auto"
+                    src="assets/car.svg"
+                    alt=""
+                  />
+                  <div class="caption flex flex-col">
+                    <p class="title">CO<span class="small">2</span> påverkan</p>
+                    <p class="subtitle">idag</p>
+                    <p id="val" class="val">.. KG</p>
+                    <p id="date" class="date">22 aug 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="sheet flex-1 m-auto py-36">
+                <p class="title">ändrade<br />öppettider</p>
+                <p class="key">mån–fre</p>
+                <p class="val">06–22</p>
+                <p class="key">lördag</p>
+                <p class="val">07–22</p>
+                <p class="key">söndag</p>
+                <p class="val">07–22</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer row">
+          <img src="assets/logo white.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+  <script src="lib/axios/axios.min.js"></script>
+  <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="dist/js/main.js"></script>
+</html>

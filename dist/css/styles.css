@@ -189,4 +189,143 @@
   color: white;
   margin-bottom: 400px;
 }
+
+.sheet p {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sheet p.title {
+  font-size: 114px;
+  line-height: 125px;
+  color: #06395b;
+  margin-bottom: 150px;
+}
+
+.sheet p.key {
+  font-size: 92px;
+  font-weight: 400;
+  line-height: 111px;
+  color: #00aeef;
+}
+
+.sheet p.val {
+  font-size: 92px;
+  font-weight: 400;
+  line-height: 111px;
+  color: #06395b;
+}
+
+.half .tree .title {
+  font-size: 38px;
+  line-height: 46px;
+  margin-top: 75px;
+}
+
+.half .tree .val {
+  font-size: 100px;
+  line-height: 120px;
+  margin-top: 225px;
+}
+
+.half .car .title {
+  font-size: 60px;
+  line-height: 70px;
+  margin-top: 75px;
+}
+
+.half .car .subtitle {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.half .car .val {
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.half .car .date {
+  font-size: 30px;
+  line-height: 72px;
+  margin-bottom: 75px;
+}
+
+.half .cloud img {
+  margin-bottom: 200px !important;
+}
+
+.half .cloud .title {
+  font-size: 160px;
+  line-height: 130px;
+  margin-top: 100px;
+}
+
+.half .cloud .subtitle {
+  font-size: 52px;
+  line-height: 62px;
+  margin-top: -15px;
+}
+
+.half .cloud .val {
+  font-size: 80px;
+  line-height: 95px;
+  margin-bottom: -10px;
+}
+
+.half .cloud .foot {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  margin-bottom: 75px;
+}
+
+.half .cars h1.title {
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 45px;
+}
+
+.half .cars p.title {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.half .cars p.val {
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.half .parking p.title {
+  font-size: 45px;
+  line-height: 55px;
+  color: #06395b;
+}
+
+.half .parking p.subtitle {
+  font-size: 56px;
+  line-height: 70px;
+}
+
+.half .parking p.val {
+  font-size: 62px;
+  line-height: 75px;
+  margin-bottom: 200px;
+  color: #79b53b;
+}
+
+.half .sheet p.title {
+  font-size: 58px;
+  line-height: 62px;
+  margin-bottom: 75px;
+}
+
+.half .sheet p.key {
+  font-size: 45px;
+  line-height: 52px;
+}
+
+.half .sheet p.val {
+  font-size: 45px;
+  line-height: 52px;
+}
 /*# sourceMappingURL=styles.css.map */
