@@ -157,4 +157,36 @@
   line-height: 81px;
   color: #06395b;
 }
+
+.parking {
+  background-color: #06395b;
+}
+
+.parking p.title {
+  font-size: 92px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 111px;
+  color: white;
+  margin-top: auto;
+}
+
+.parking p.subtitle {
+  font-size: 117px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 141px;
+  color: #00aeef;
+}
+
+.parking p.val {
+  font-size: 124px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 150px;
+  color: white;
+  margin-bottom: 400px;
+}
 /*# sourceMappingURL=styles.css.map */
