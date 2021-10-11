@@ -35,9 +35,14 @@
   font-size: 118px;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 700;
   line-height: 141px;
   color: white;
   margin-top: 150px;
+}
+
+.car .title span.small {
+  font-weight: 700;
 }
 
 .car .subtitle {
@@ -62,7 +67,6 @@
   font-size: 60px;
   text-align: center;
   font-weight: 400;
-  text-transform: uppercase;
   line-height: 72px;
   color: white;
   margin-bottom: 150px;
@@ -80,18 +84,23 @@
   font-size: 325px;
   text-align: center;
   text-transform: uppercase;
-  line-height: 390px;
+  line-height: 260px;
   color: white;
-  margin-top: 150px;
+  margin-top: 200px;
+}
+
+.cloud .title span.small {
+  font-weight: 700;
 }
 
 .cloud .subtitle {
   font-size: 105px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
   line-height: 125px;
   color: white;
+  margin-top: -30px;
 }
 
 .cloud .val {
@@ -102,7 +111,7 @@
   line-height: 190px;
   color: white;
   margin-top: auto;
-  margin-bottom: 50px;
+  margin-bottom: -20px;
 }
 
 .cloud .foot {
@@ -114,5 +123,9 @@
   color: #00aeef;
   margin-top: auto;
   margin-bottom: 150px;
+}
+
+.cars {
+  background-color: #00aeef;
 }
 /*# sourceMappingURL=styles.css.map */

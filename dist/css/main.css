@@ -63,4 +63,8 @@ body {
   height: 100%;
   margin-left: auto;
 }
+
+p span.small {
+  font-size: 60%;
+}
 /*# sourceMappingURL=main.css.map */
