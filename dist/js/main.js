@@ -16,16 +16,16 @@ axios
   .catch((err) => console.error(err));
 
 axios
-  .get(`${api}/carbonbymonth.php`)
+  .get(`${api}/prevcarbon.php`)
   .then((res) => {
-    $("#carTall p#month1").text(Object.values(res.data.data)[0] + " KG");
-    $("#carTall p#month2").text(Object.values(res.data.data)[1] + " KG");
+    $(".cloud p#val").text(res.data.data + " kg");
   })
   .catch((err) => console.error(err));
 
 axios
-  .get(`${api}/prevcarbon.php`)
+  .get(`${api}/carbonbymonth.php`)
   .then((res) => {
-    $("#cloud p").text(res.data.data + " kg");
+    $("#carTall p#month1").text(Object.values(res.data.data)[0] + " KG");
+    $("#carTall p#month2").text(Object.values(res.data.data)[1] + " KG");
   })
   .catch((err) => console.error(err));
