@@ -24,4 +24,47 @@
   background-color: #06395b;
   color: white;
 }
+
+.car img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.car .title {
+  font-size: 118px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 141px;
+  color: white;
+  margin-top: 150px;
+}
+
+.car .subtitle {
+  font-size: 118px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 141px;
+  color: #00aeef;
+}
+
+.car .val {
+  font-size: 125px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 150px;
+  color: white;
+  margin-top: auto;
+}
+
+.car .date {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 72px;
+  color: white;
+  margin-bottom: 150px;
+}
 /*# sourceMappingURL=styles.css.map */

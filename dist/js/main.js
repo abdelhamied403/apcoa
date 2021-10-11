@@ -11,7 +11,7 @@ axios
 axios
   .get(`${api}/carbon.php`)
   .then((res) => {
-    $("#car p").text(res.data.data + " KG");
+    $(".car p#val").text(res.data.data + " KG");
   })
   .catch((err) => console.error(err));
 

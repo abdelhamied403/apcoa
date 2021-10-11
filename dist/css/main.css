@@ -6,17 +6,18 @@
 @font-face {
   font-family: "unit";
   src: url(../../assets/Fonts/UnitPro-Medi.otf);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
   font-family: "unit";
   src: url(../../assets/Fonts/UnitPro-Bold.otf);
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 body {
   font-family: "unit";
+  font-weight: 900;
 }
 
 .col {

@@ -24,4 +24,41 @@
 .car {
   background-color: $navy;
   color: white;
+  img {
+    height: fit-content;
+  }
+
+  .title {
+    font-size: 118px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 141px;
+    color: white;
+    margin-top: 150px;
+  }
+  .subtitle {
+    font-size: 118px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 141px;
+    color: $aqua;
+  }
+  .val {
+    font-size: 125px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 150px;
+    color: white;
+    margin-top: auto;
+  }
+  .date {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 72px;
+    color: white;
+    margin-bottom: 150px;
+  }
 }
