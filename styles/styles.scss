@@ -117,4 +117,30 @@
 
 .cars {
   background-color: $aqua;
+  h1.title {
+    font-size: 117px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 141px;
+    color: white;
+    span.small {
+      font-weight: 900;
+    }
+  }
+
+  p.title {
+    font-size: 101px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 121px;
+    color: white;
+  }
+  p.val {
+    font-size: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 81px;
+    color: $navy;
+  }
 }

@@ -128,4 +128,33 @@
 .cars {
   background-color: #00aeef;
 }
+
+.cars h1.title {
+  font-size: 117px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 141px;
+  color: white;
+}
+
+.cars h1.title span.small {
+  font-weight: 900;
+}
+
+.cars p.title {
+  font-size: 101px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 121px;
+  color: white;
+}
+
+.cars p.val {
+  font-size: 68px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 81px;
+  color: #06395b;
+}
 /*# sourceMappingURL=styles.css.map */

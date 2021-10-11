@@ -25,7 +25,21 @@ axios
 axios
   .get(`${api}/carbonbymonth.php`)
   .then((res) => {
-    $("#carTall p#month1").text(Object.values(res.data.data)[0] + " KG");
-    $("#carTall p#month2").text(Object.values(res.data.data)[1] + " KG");
+    const val1 = Object.values(res.data.data)[0];
+    const val2 = Object.values(res.data.data)[1];
+
+    if (val1 === val2) {
+      $(".cars img#img1").attr("src", "assets/carTall.svg");
+      $(".cars img#img2").attr("src", "assets/carTall.svg");
+    } else if (val1 < val2) {
+      $(".cars img#img1").attr("src", "assets/carShort.svg");
+      $(".cars img#img2").attr("src", "assets/carTall.svg");
+    } else {
+      $(".cars img#img1").attr("src", "assets/carTall.svg");
+      $(".cars img#img2").attr("src", "assets/carShort.svg");
+    }
+
+    $(".cars p#val1").text(Object.values(res.data.data)[0] + " KG");
+    $(".cars p#val2").text(Object.values(res.data.data)[1] + " KG");
   })
   .catch((err) => console.error(err));
