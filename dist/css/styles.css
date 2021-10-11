@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.tree {
+  background-color: #00aeef;
+}
+
+.tree .title {
+  font-size: 76px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 92px;
+  color: #06395b;
+  margin-top: 150px;
+}
+
+.tree .val {
+  font-size: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 240px;
+  color: white;
+  margin-top: 450px;
+}
+
+.car {
+  background-color: #06395b;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */

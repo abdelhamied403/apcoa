@@ -1,0 +1,27 @@
+@import "./inc/colors";
+
+.tree {
+  background-color: $aqua;
+
+  .title {
+    font-size: 76px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 92px;
+    color: $navy;
+    margin-top: 150px;
+  }
+  .val {
+    font-size: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 240px;
+    color: white;
+    margin-top: 450px;
+  }
+}
+
+.car {
+  background-color: $navy;
+  color: white;
+}

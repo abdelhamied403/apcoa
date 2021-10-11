@@ -12,28 +12,3 @@
   src: url(../../assets/Fonts/UnitPro-Bold.otf);
   font-weight: bolder;
 }
-
-body,
-p {
-  margin: 0;
-  font-family: "unit";
-}
-
-.container {
-  .row {
-    display: flex;
-  }
-
-  img {
-    width: 540px;
-    height: 960px;
-    object-fit: cover;
-  }
-}
-
-p.blue {
-  color: #07375b !important;
-}
-p.lightblue {
-  color: #00aeef !important;
-}

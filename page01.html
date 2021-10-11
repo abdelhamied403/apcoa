@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/tailwind/tailwind.min.css" />
+
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <link rel="stylesheet" href="dist/css/styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="viewport flex flex-col">
+        <div class="tree row flex-1">
+          <div class="col w-full h-full flex">
+            <img class="w-1/2 mx-auto mt-auto" src="assets/tree.svg" alt="" />
+            <div class="caption flex flex-col">
+              <p class="title">Antal<br />miljöklassade<br />fordon</p>
+              <p id="val" class="val">...%</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer row">
+          <img src="assets/logo.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+  <script src="lib/axios/axios.min.js"></script>
+  <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="dist/js/main.js"></script>
+</html>

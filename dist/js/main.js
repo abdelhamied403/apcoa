@@ -4,7 +4,7 @@ axios.defaults.headers.post["Access-Control-Allow-Origin"] = "*";
 axios
   .get(`${api}/cars.php`)
   .then((res) => {
-    $("#tree p").text(res.data.environmental);
+    $(".tree p#val").text(res.data.environmental);
   })
   .catch((err) => console.error(err));
 
