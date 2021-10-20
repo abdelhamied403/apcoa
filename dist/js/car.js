@@ -1,5 +1,5 @@
 axios
-  .get(`${api}/carbon.php`)
+  .get(api + "/carbon.php")
   .then((res) => {
     $(".car p#val").text(res.data.data + " KG");
   })

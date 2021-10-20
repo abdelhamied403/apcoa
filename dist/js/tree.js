@@ -1,5 +1,5 @@
 axios
-  .get(`${api}/cars.php`)
+  .get(api + "/cars.php")
   .then((res) => {
     $(".tree p#val").text(res.data.environmental);
   })

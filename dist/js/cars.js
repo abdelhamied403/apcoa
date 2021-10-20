@@ -1,5 +1,5 @@
 axios
-  .get(`${api}/carbonbymonth.php`)
+  .get(api + "/carbonbymonth.php")
   .then((res) => {
     const val1 = Object.values(res.data.data)[0];
     const val2 = Object.values(res.data.data)[1];
