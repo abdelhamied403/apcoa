@@ -7,14 +7,14 @@ axios
     const key2 = Object.keys(res.data.data)[1];
 
     if (val1 === val2) {
-      $(".cars img#img1").attr("src", "assets/carTall.svg");
-      $(".cars img#img2").attr("src", "assets/carTall.svg");
+      $(".cars img#img1").attr("src", "assets/carTall.png");
+      $(".cars img#img2").attr("src", "assets/carTall.png");
     } else if (val1 < val2) {
-      $(".cars img#img1").attr("src", "assets/carShort.svg");
-      $(".cars img#img2").attr("src", "assets/carTall.svg");
+      $(".cars img#img1").attr("src", "assets/carShort.png");
+      $(".cars img#img2").attr("src", "assets/carTall.png");
     } else {
-      $(".cars img#img1").attr("src", "assets/carTall.svg");
-      $(".cars img#img2").attr("src", "assets/carShort.svg");
+      $(".cars img#img1").attr("src", "assets/carTall.png");
+      $(".cars img#img2").attr("src", "assets/carShort.png");
     }
 
     const month1 = +key1.split("-")[1] - 1;

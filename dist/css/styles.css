@@ -104,7 +104,7 @@
 }
 
 .cloud .val {
-  font-size: 159px;
+  font-size: 140px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
@@ -267,7 +267,7 @@
 }
 
 .half .cloud .val {
-  font-size: 80px;
+  font-size: 70px;
   line-height: 95px;
   margin-bottom: -10px;
 }

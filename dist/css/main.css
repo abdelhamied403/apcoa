@@ -40,11 +40,6 @@ body {
   margin: 0 auto;
 }
 
-.page .viewport img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .page .viewport .caption {
   position: absolute;
   width: 100%;
